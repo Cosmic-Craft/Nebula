@@ -1,8 +1,8 @@
 version: '3.8'
 
 services:
-  wings:
-    image: ghcr.io/pterodactyl/wings:latest
+  nebula:
+    image: cosmiccraft/nebula:latest
     restart: always
     networks:
       - wings0
@@ -14,14 +14,14 @@ services:
       TZ: "UTC"
       WINGS_UID: 988
       WINGS_GID: 988
-      WINGS_USERNAME: pterodactyl
+      WINGS_USERNAME: nebula
     volumes:
       - "/var/run/docker.sock:/var/run/docker.sock"
       - "/var/lib/docker/containers/:/var/lib/docker/containers/"
-      - "/etc/pterodactyl/:/etc/pterodactyl/"
-      - "/var/lib/pterodactyl/:/var/lib/pterodactyl/"
-      - "/var/log/pterodactyl/:/var/log/pterodactyl/"
-      - "/tmp/pterodactyl/:/tmp/pterodactyl/"
+      - "/etc/nebula/:/etc/pterodactyl/"
+      - "/var/lib/nebula/:/var/lib/pterodactyl/"
+      - "/var/log/nebula/:/var/log/pterodactyl/"
+      - "/tmp/nebula/:/tmp/pterodactyl/"
       - "/etc/ssl/certs:/etc/ssl/certs:ro"
       # you may need /srv/daemon-data if you are upgrading from an old daemon
       #- "/srv/daemon-data/:/srv/daemon-data/"

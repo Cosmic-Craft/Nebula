@@ -53,4 +53,5 @@ Dockerfile
 CHANGELOG.md
 Makefile
 README.md
+/docs
 wings-api.paw
