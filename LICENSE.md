@@ -1,6 +1,10 @@
-MIT License
+# The MIT License (MIT)
 
-Copyright (c) 2018 - 2021 Dane Everitt <dane@daneeveritt.com> and Contributors
+This license is retained from Nebula's &apos;s parent project, <a href="https://github.com/pterodactyl/panel">Pterodactyl Wings&reg;</a>.
+
+```
+Pterodactyl®
+Copyright © Dane Everitt <dane@daneeveritt.com> and contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +23,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
+
+<p align="center">
+  <br>
+  <img src="https://github.com/Cosmic-Craft/Assets/blob/General/Images/CosmicCraft-Logo.png?raw=true" alt="CosmicCraft Logo" width="18%"/>
+</p>
